@@ -1,0 +1,961 @@
+@media screen and (max-width:1500px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+}
+
+@media screen and (max-width:1205px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    /* Navbar starts here */
+
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+        height: 19rem;
+        transition: all 0.9s ease-out;
+        max-width: 100%;
+        z-index: 2;
+    }
+
+    .h-resp {
+        height: 4rem;
+    }
+
+    .left {
+        margin-bottom: 0.2rem;
+    }
+
+    .left .burger {
+        display: block;
+    }
+
+    .left h2 {
+        margin-top: 0.60rem;
+    }
+
+    h2 .logo{
+        margin-top: 0.6rem;
+    }
+
+    .right{
+        margin: auto;
+    }
+
+    .v-resp {
+        visibility: hidden;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        margin: auto;
+        gap: 0.5rem;
+        margin-left: 6rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Navbar ends here */
+
+    /* Blogs section starts here */
+
+    #blog{
+        margin-top: 5rem;
+    }
+
+    .main-blog-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-blog-box{
+        margin-top: 1.4rem;
+    }
+
+    /* Blogs section starts here */
+}
+
+@media screen and (max-width:1195px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    /* Home section starts here */
+
+    .text-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .first-box input {
+        width: 29rem;
+        border-radius: 0.25rem;
+    }
+
+    .first-box i{
+        left: 26rem;
+    }
+
+    .second-box input {
+        border-radius: 0.25rem;
+    }
+
+    .second-box i{
+        right: 1.8rem;
+    }
+
+    /* Home section ends here */
+
+    /* List item section starts here */
+
+    #list-item {
+        display: flex;
+        position: static;
+    }
+
+    .list-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    
+    /* List item section ends here */
+
+    /* How it works section starts here */
+
+    #how-it-works {
+        margin-top: 5rem;
+    }
+
+    .main-heading{
+        margin-bottom: 3rem;
+    }
+
+    .first-how-it-works-box {
+        flex-direction: column;
+    }
+
+    .first-part{
+        margin-top: 1.4rem;
+    }
+
+    /* How it works section ends here */
+
+    /* Explore section starts here */
+
+    #explore{
+        margin-top: 5rem;
+    }
+
+    /* Explore section ends here */
+
+    /* Review section starts here */
+
+    #review{
+        margin-top: 5rem;
+    }
+
+    /* Review section ends here */
+
+    /* Counter section starts here */
+
+    .counter-middle-part{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    #counter-heading-first{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+    }
+
+    #counter-heading-first h2{
+        margin-right: 2rem;
+    }
+
+    #counter-heading-first h3{
+        margin-right: 6rem;
+    }
+
+    #counter-heading-second{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+    }
+
+    #counter-heading-second h2{
+        margin-right: 2rem;
+    }
+
+    #counter-heading-second h3{
+        margin-right: -1rem;
+    }
+
+    #counter-heading-third{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+    }
+
+    #counter-heading-third h2{
+        margin-right: 2rem;
+    }
+
+    #counter-heading-third h3{
+        margin-right: 6rem;
+    }
+
+    #counter-heading-fourth{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+    }
+
+    #counter-heading-fourth h2{
+        margin-right: 2rem;
+    }
+
+    #counter-heading-fourth h3{
+        margin-right: 1rem;
+    }
+
+    /* Counter section ends here */
+
+    /* Footer section starts here */
+
+    #footer{
+        flex-direction: column;
+    }
+
+    #footer .left{
+        margin-left: 0;
+    }
+    #footer .right{
+        margin: 0rem;
+    }
+
+    .footer-lower-part{
+        flex-direction: column;
+    }
+    
+    .footer-lower-left-part{
+        margin-right: 0rem;
+        margin-top: 3rem;
+        margin-left: -6rem;
+    }
+
+    .footer-lower-right-part{
+        margin-left: -6rem;
+    }
+
+    /* Footer section ends here */
+}
+
+@media screen and (max-width:950px) {
+
+    /* Navbar starts here */
+
+    .nav-list {
+        margin-left: 4.5rem;
+    }
+
+    /* Navbar ends here */
+}
+
+@media screen and (max-width:916px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    /* Home section starts here */
+
+    .first-line{
+        font-size: 2rem;
+    }
+
+    .second-line{
+        font-size: 2rem;
+    }
+
+    .third-line{
+        font-size: 0.9rem;
+    }
+
+    /* Home section ends here */
+}
+
+@media screen and (max-width:800px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    /* Contact section starts here */
+
+    #contact{
+        margin-top: 5rem;
+    }
+
+    #main-heading h2{
+        font-size: 1rem;
+        margin: 0 1rem 0 1rem;
+    }
+
+    #main-heading p{
+        font-size: 0.8rem;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .contact-search-box input{
+        width: 25rem;
+    }
+
+    .contact-search-box input[placeholder]{
+        font-size: 0.83rem;
+    }
+
+    .contact-btn{
+        width: 8.2rem;
+        font-size: 0.8rem;
+    }
+
+    /* Contact section ends here */
+}
+
+
+@media screen and (max-width: 698px) {
+
+    /* Navbar starts here */
+
+    .nav-list {
+        margin-left: 4rem;
+    }
+
+    /* Navbar ends here */
+
+    /* Footer section starts here */
+
+    .footer-list{
+        flex-direction: column;
+        justify-content: center;
+        margin-right: -2rem;
+        text-align: center;
+        gap: 0rem;
+    }
+
+    .footer-lower-part{
+        border: none;
+    }
+
+    .footer-lower-left-part{
+        margin-top: 0rem;
+    }
+
+    .footer-lower-right-part{
+        margin-top: 1rem;
+
+    }
+
+    /* Footer section ends here */
+}
+
+@media screen and (max-width: 650px) {
+
+    /* Home section starts here */
+
+    .first-line{
+        font-size: 1.5rem;
+    }
+
+    .second-line{
+        font-size: 1.5rem;
+    }
+
+    .third-line{
+        font-size: 0.75rem;
+    }
+
+    .first-box h3 {
+        font-size: 0.95rem;
+    }
+
+    .first-box input {
+        width: 26rem;
+    }
+
+    input[placeholder="Ex: palce, resturent, food, automobile"] {
+        font-size: 0.8rem;
+    }
+
+    .first-box i{
+        left: 23rem;
+    }
+
+    .second-box h3 {
+        font-size: 0.95rem;
+    }
+
+    .second-box input {
+        width: 26rem;
+    }
+
+    input[placeholder="Ex: london, newyork, rome"] {
+        font-size: 0.8rem;
+    }
+
+    .second-box i{
+        right: 1.8rem;
+    }
+
+    /* Home section ends here */
+}
+
+@media screen and (max-width: 551px) {
+
+    /* Counter section starts here */
+
+    #counter-heading-first{
+        margin-left: -1rem;
+    }
+    #counter-heading-second{
+        margin-left: -1rem;
+    }
+    #counter-heading-third{
+        margin-left: -1rem;
+    }
+    #counter-heading-fourth{
+        margin-left: -1rem;
+    }
+
+    /* Counter section ends here */
+
+    /* Contact section starts here */
+
+    .contact-search-box form {
+        flex-direction: column;
+    }
+
+    .contact-btn{
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    /* Contact section ends here */
+}
+
+@media screen and (max-width: 509px) {
+
+    /* Navbar starts here */
+
+    .nav-list {
+        margin-left: 3.5rem;
+    }
+
+    /* Navbar ends here */
+
+    /* Home section starts here */
+
+    .first-line{
+        font-size: 1.2rem;
+    }
+
+    .second-line{
+        font-size: 1.2rem;
+    }
+
+    .third-line{
+        font-size: 0.64rem;
+    }
+
+    .btn {
+        padding: 1rem 1.1rem;
+        font-size: 0.82rem;
+        height: 3.8rem;
+        width: 9.5rem;
+    }
+
+    .btn i{
+        font-size: 0.8rem;
+    }
+
+    /* Home section ends here */
+}
+
+@media screen and (max-width: 455px) {
+
+    /* Header top starts here */
+
+    .top-left{
+        margin-left: 1%;
+        width: 45rem;
+    }
+    
+    .first-left{
+        font-size: 0.3rem;
+    }
+    
+    .second-left{
+        font-size: 0.3rem;
+    }
+    
+    .third-left i{
+        font-size: 0.7rem;
+    }
+    
+    .top-right{
+        margin-right: 1.2%;
+    }
+    
+    .first-right{
+        font-size: 0.75rem;
+    }
+    
+    .second-right{
+        font-size: 0.75rem;
+    }
+    
+    .third-right{
+        font-size: 0.75rem;
+    }
+
+    /* Header top ends here */
+
+    /* Home section starts here */
+
+    .text{
+        margin-top: 2.5rem;
+    }
+
+    .first-line{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .second-line{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .third-line{
+        font-size: 0.6rem;
+    }
+
+    .first-box h3 {
+        font-size: 0.72rem;
+        top: 1.2rem;
+    }
+
+    .first-box input {
+        width: 21rem;
+        height: 3.3rem;
+    }
+
+    input[placeholder="Ex: palce, resturent, food, automobile"] {
+        font-size: 0.64rem;
+    }
+
+    .first-box i{
+        top: 1.3rem;
+        left: 18rem;
+        font-size: 0.87rem;
+    }
+
+    .second-box h3 {
+        font-size: 0.72rem;
+        top: 1.2rem;
+    }
+
+    .second-box input {
+        width: 21rem;
+        height: 3.3rem;
+    }
+
+    input[placeholder="Ex: london, newyork, rome"] {
+        font-size: 0.64rem;
+    }
+
+    .second-box i{
+        top: 1.3rem;
+        right: 2.1rem;
+        font-size: 0.87rem;
+    }
+
+    .btn {
+        padding: 1rem 1.1rem;
+        font-size: 0.7rem;
+        height: 2.8rem;
+        width: 8rem;
+    }
+
+    .btn i{
+        font-size: 0.72rem;
+    }
+
+    /* Home section ends here */
+
+    /* Counter section starts here */
+
+    .counter-middle-part{
+        margin-top: 5.2rem;
+    }
+
+    #counter-heading-first{
+        margin-left: -2.5rem;
+    }
+
+    #counter-heading-first h2{
+        font-size: 2.5rem;
+    }
+
+    #counter-heading-first h3{
+        font-size: 1.2rem;
+    }
+
+    #counter-heading-second{
+        margin-left: -2.5rem;
+    }
+
+    #counter-heading-second h2{
+        font-size: 2.5rem;
+    }
+
+    #counter-heading-second h3{
+        font-size: 1.2rem;
+    }
+
+    #counter-heading-third{
+        margin-left: -2.5rem;
+    }
+
+    #counter-heading-third h2{
+        font-size: 2.5rem;
+    }
+
+    #counter-heading-third h3{
+        font-size: 1.2rem;
+    }
+
+    #counter-heading-fourth{
+        margin-left: -2.5rem;
+    }
+
+    #counter-heading-fourth h2{
+        font-size: 2.5rem;
+    }
+
+    #counter-heading-fourth h3{
+        font-size: 1.2rem;
+    }
+
+    /* Counter section starts here */
+}
+
+@media screen and (max-width: 415px) {
+
+    /* Navbar starts here */
+
+    .nav-list {
+        margin-left: 3rem;
+    }
+
+    /* Navbar ends here */
+
+    /* Contact section starts here */
+
+    .contact-search-box input{
+        width: 21rem;
+    }
+
+    .contact-search-box input[placeholder]{
+        font-size: 0.8rem;
+    }
+
+    .contact-btn{
+        width: 7rem;
+        font-size: 0.8rem;
+    }
+
+    /* Contact section ends here */
+
+    /* Footer section starts here */
+
+    .footer-lower-left-part p{
+        font-size: 0.77rem;
+    }
+
+    .footer-para{
+        gap: 0.2rem;
+    }
+    .footer-para a i{
+        font-size: 0.67rem;
+    }
+
+    .footer-para p a {
+        font-size: 0.77rem;
+    }
+
+    .footer-icons{
+        width: 2rem;
+        height: 2rem;
+        margin-left: 1rem;
+    }
+
+    .footer-icons a i{
+        font-size: 0.77rem;
+    }
+
+    /* Footer section ends here */
+}
+
+@media screen and (max-width: 400px) {
+    
+    /* Home section starts here */
+
+    .first-line{
+        letter-spacing: 0.15rem;
+    }
+
+    .second-line{
+        letter-spacing: 0.15rem;
+    }
+
+    .third-line{
+        font-size: 0.5rem;
+        font-weight: 400;
+    }
+
+    /* Home section ends here */
+
+    /* How it works section starts here */
+
+    .main-heading p {
+        font-size: 0.9rem;
+        margin: 0 1rem 0 1rem;
+        text-transform: capitalize;
+    }
+
+    .first-part {
+        width: 20rem;
+        padding-top: 0rem;
+    }
+
+    /* How it works section ends here */
+
+    /* Explore section starts here */
+
+    .explore-main-part{
+        width: 20rem;
+        height: 34.3rem;
+     }
+     
+     .upper-part img{
+        width: 20rem;
+        margin-bottom: 1rem;
+     }
+     
+     .inner-part{
+        top: 13rem;
+     }
+
+     .inner-part button{
+        margin-right: 6.7rem;
+     }
+     
+     .inner-btn{
+        margin-right: 3rem;
+        margin-left: 1.3rem;
+     }
+     
+     .explore-middle-part {
+        margin-top: 0.7rem;
+     }
+     
+     .explore-heading a {
+        font-size: 1rem;
+        letter-spacing: 0.02rem;
+     }
+     
+     .explore-rating {
+        margin-left: 1.22rem;
+     }
+     
+     .number {
+        margin-right: 0.2rem;
+        width: 2rem;
+        height: 1.3rem;
+        margin-top: 0.2rem;
+     }
+     
+     .number p {
+        font-size: 0.7rem;
+     }
+     
+     .rating {
+        margin-left: 0.4rem;
+     }
+     
+     .rating a {
+        font-size: 0.7rem;
+        margin-right: 0.4rem;
+     }
+     
+     .money {
+        padding-top: 0.48rem;
+        margin-left: 0.42rem;
+        margin-right: 0.2rem;
+     }
+     
+     .money p {
+        font-size: 0.7rem;
+        margin-right: 0rem;
+     }
+     
+     .money span {
+        font-size: 0.68rem;
+        margin-right: 0.4rem;
+        margin-left: 0.2rem;
+     }
+     
+     .place {
+        margin-left: 0.26rem;
+        margin-right: 0.26rem;
+     }
+     
+     .place a {
+        font-size: 0.7rem;
+     }
+     
+     .explore-para {
+        padding-top: 2rem;
+     }
+     
+     .person-img {
+        margin-right: 0.4rem;
+        margin-left: 0.6rem;
+     }
+     
+     .person-img img {
+        width: 2.6rem;
+     }
+     
+     .explore-para p {
+        font-size: 0.65rem;
+        letter-spacing: 0.02rem;
+     }
+     
+     .explore-last-part {
+        margin-right: 0rem;
+        margin-left: 0.1rem;
+     }
+     
+     .explore-button {
+        margin-right: -0.5rem;
+        margin-top: 1.2rem;
+     }
+     
+     .explore-btn {
+        margin-right: 5.6rem;
+        font-size: 0.72rem;
+     }
+
+     /* Explore section ends here */
+
+     /* Blog section starts here */
+
+     .first-blog-box {
+        width: 20rem;
+     }
+     
+     .upper-blog-part img {
+         width: 20rem;
+         margin-left: 1.5rem;
+     }
+     
+     .upper-blog-part img {
+        width: 20rem;
+        margin-left: 1.5rem;
+     }
+     
+     .middle-blog-part {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+     }
+     
+     .middle-blog-part h2 a {
+        font-size: 1rem;
+     }
+     
+     .second-last-blog-part {
+        margin-right: 1rem;
+        margin-left: 1.3rem;
+     }
+     
+     .second-last-blog-part h4 {
+        font-size: 0.82rem;
+     }
+     
+     .second-last-blog-part span a {
+        margin-right: 0.6rem;
+        font-size: 0.88rem;
+     }
+     
+     .second-last-blog-part h4 {
+        font-size: 0.82rem;
+        margin-right: 0.7rem;
+     }
+     
+     .last-blog-part {
+        margin-right: 3rem;
+        margin-left: 2rem;
+     }
+     
+     .last-blog-part p {
+        font-size: 0.85rem;
+     }
+
+     /* Blog section ends here */
+}
