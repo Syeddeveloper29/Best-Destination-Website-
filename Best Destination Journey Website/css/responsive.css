@@ -780,8 +780,8 @@
     /* How it works section starts here */
 
     .main-heading p {
-        font-size: 0.9rem;
-        margin: 0 1rem 0 1rem;
+        /* font-size: 0.9rem; */
+        /* margin: 0 1rem 0 1rem; */
         text-transform: capitalize;
     }
 
@@ -791,107 +791,7 @@
 
     /* How it works section ends here */
 
-    /* Explore section starts here */
-
-    .upper-part img {
-        /* width: 100%; */
-        /* margin-bottom: 1rem; */
-    }
-
-    .inner-part {
-        /* top: 13rem; */
-    }
-
-    .inner-part button {
-        /* margin-right: 6.7rem; */
-    }
-
-    .inner-btn {
-        /* margin-right: 3rem;
-        margin-left: 1.3rem; */
-    }
-
-    .explore-middle-part {
-        /* margin-top: 0.7rem; */
-    }
-
-    .explore-heading a {
-        /* font-size: 1rem;
-        letter-spacing: 0.02rem; */
-    }
-
-    .explore-rating {
-        /* margin-left: 1.22rem; */
-    }
-
-    .number {
-        /* margin-right: 0.2rem;
-        width: 2rem;
-        height: 1.3rem;
-        /* margin-top: 0.2rem; */
-    }
-
-    .number p {
-        /* font-size: 0.7rem; */
-    }
-
-    .rating {
-        /* margin-left: 0.4rem; */
-    }
-
-    .rating a {
-        /* font-size: 0.7rem;
-        margin-right: 0.4rem; */
-    }
-
-    .money {
-        /* padding-top: 0.48rem;
-        margin-left: 0.42rem;
-        margin-right: 0.2rem; */
-    }
-
-    .money p {
-        /* font-size: 0.7rem;
-        margin-right: 0rem; */
-    }
-
-    .money span {
-        /* font-size: 0.68rem;
-        margin-right: 0.4rem;
-        margin-left: 0.2rem; */
-    }
-
-    .place {
-        /* margin-left: 0.26rem; */
-        /* margin-right: 0.26rem; */
-    }
-
-    .place a {
-        /* font-size: 0.7rem; */
-    }
-
-    .explore-para {
-        /* padding-top: 2rem; */
-    }
-
-    .person-img {
-        /* margin-right: 0.4rem;
-        margin-left: 0.6rem; */
-    }
-
-    .person-img img {
-        /* width: 2.6rem; */
-    }
-
-    .explore-para p {
-        /* font-size: 0.65rem; */
-        /* letter-spacing: 0.02rem; */
-    }
-
-    /* Explore section ends here */
-
-    /* Blog section starts here */
-
+    
     .first-blog-box {
         width: 20rem;
     }
@@ -947,6 +847,10 @@
 }
 
 @media only screen and (max-width: 388px) {
+    .explore-rating{
+        padding: 0.7rem 1rem 0 1rem;
+    }
+
     .number {
         width: 2rem;
     }
@@ -973,5 +877,49 @@
 
     .explore-para p {
         font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+    .explore-para {
+    padding: 1.5rem 1.2rem 1.8rem 1.2rem;
+    gap: 0.5rem;
+}
+
+    .explore-para p {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 362px){
+    .rating a {
+        padding-right: 0.3rem;
+    }
+    
+    .money span {
+        padding-right: 0.3rem;
+    }
+    
+    .place a{
+        padding-right: 0.3rem;
+    }
+}
+
+@media only screen and (max-width: 351px) {
+    .explore-heading{
+        padding-left: 0.8rem;
+    }
+
+    .explore-heading a {
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+
+    .explore-rating {
+        padding: 0.7rem 0.5rem 0 0.5rem;
+    }
+    
+    .explore-para {
+        padding: 1.5rem 0.8rem 1.8rem 0.8rem;
     }
 }
