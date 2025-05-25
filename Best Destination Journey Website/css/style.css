@@ -106,32 +106,35 @@ i.fa-magnifying-glass {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.7rem 5rem 0 5rem;
+    padding: 0rem 5rem 0 5rem;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 2;
     background-color: #FFF;
     width: 100%;
-    height: 5.4rem;
+    max-height: 5.4rem;
+    height: 100%;
     box-shadow: 0 0.4rem 0.4rem #0000002f;
     border-bottom: 0.062rem solid #fff;
 }
 
 .left {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .left .burger {
     position: absolute;
-    top: 1.2rem;
-    left: 5%;
+    top: 2.71rem;
+    left: 3rem;
+    transform: translate(-50%, -50%);
     display: none;
 }
 
 .burger i {
     color: black;
-    margin-left: 0.6rem;
     font-size: 1.2rem;
     font-weight: 800;
     vertical-align: auto;
@@ -226,7 +229,7 @@ li a:hover {
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .first-line {
@@ -276,8 +279,8 @@ li a:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 4rem 1.3rem 0 1.3rem;
-
+    padding: 4rem 1.6rem 0 1.6rem;
+    flex-wrap: wrap;
 }
 
 .first-section:hover>.text-buttons {
@@ -287,8 +290,8 @@ li a:hover {
 
 .text-buttons .first-box h3 {
     position: absolute;
-    top: 72%;
-    left: 6.5%;
+    top: 6.34rem;
+    left: 4.7rem;
     transform: translate(-50%, -50%);
     color: #343a3f;
     font-size: 1.1rem;
@@ -299,8 +302,8 @@ li a:hover {
 
 .text-buttons .second-box h3 {
     position: absolute;
-    top: 72%;
-    left: 47%;
+    top: 6.34rem;
+    left: 35.5rem;
     transform: translate(-50%, -50%);
     color: #343a3f;
     font-size: 1.1rem;
@@ -339,27 +342,27 @@ li a:hover {
 
 }
 
-.text-buttons .first-box .icon{
+.text-buttons .first-box .icon {
     position: absolute;
-    bottom: 8%;
-    left: 38%;
+    bottom: 0.75rem;
+    left: 29rem;
     transform: translate(-50%, -50%);
 }
 
-.text-buttons .second-box .icon{
+.text-buttons .second-box .icon {
     position: absolute;
-    bottom: 8%;
-    right: 20%;
+    bottom: 0.75rem;
+    right: 15rem;
     transform: translate(-50%, -50%);
 }
 
-.text-buttons i{
+.text-buttons i {
     color: #252d32;
     font-size: 1.2rem;
     cursor: pointer;
 }
 
-button {
+.text-buttons button {
     margin-left: 1.3rem;
     display: flex;
     align-items: center;
@@ -526,20 +529,19 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    padding-top: 3rem;
+    padding: 3rem 2rem 0 2rem;
 }
 
 .first-part {
     max-width: 23rem;
     min-width: 17rem;
     width: 100%;
-    height: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 2rem;
+    padding: 3rem 0 2rem 0;
     border-radius: 0.35rem;
     box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.3);
 }
@@ -555,7 +557,7 @@ button {
     width: 5.1rem;
     height: 5.1rem;
     border: 0.06rem solid #d3d6d9;
-    border-radius: 3.1rem;
+    border-radius: 50%;
     background-color: #e4e8eb;
 }
 
@@ -592,10 +594,9 @@ button {
 .first-part p {
     font-size: 0.90rem;
     text-align: center;
-    margin: 0 2rem;
+    padding: 1.05rem 2rem 0 2rem;
     color: #767f86;
     line-height: 1.8;
-    padding-top: 1.05rem;
 }
 
 .first-part:hover>p {
@@ -607,14 +608,19 @@ button {
     justify-content: center;
 }
 
+.button-part button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .first-part .btn-part {
     width: 6.4rem;
-    height: 2rem;
     font-size: 0.8rem;
     color: #767f86;
     background: transparent;
     cursor: pointer;
-    padding: 1rem 0.76rem;
+    padding: 0.6rem 0.76rem;
     border-radius: 0.3rem;
     border: 0.06rem solid #d3d6d9;
     margin: auto;
@@ -697,19 +703,21 @@ button {
     justify-content: space-between;
     position: absolute;
     z-index: 1;
-    top: 15rem;
-    margin-right: 4rem;
+    bottom: 2%;
+    left: 5%;
     visibility: hidden;
 }
 
 .inner-part button {
-    margin-right: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.inner-btn {
+.inner-part .inner-btn {
     width: 6.3rem;
-    padding: 0 0.86rem;
+    padding: 0.5rem 0.86rem;
     background-color: #ff545a;
     text-transform: capitalize;
     font-size: 0.75rem;
@@ -720,12 +728,21 @@ button {
     cursor: pointer;
 }
 
+.inner-part .inner-part-icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    left: 251%;
+    bottom: 0%;
+}
+
 .inner-explore-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     right: 0;
-    margin-right: 0.5rem;
     width: 2rem;
     height: 1.7rem;
     border: 0.2rem solid #1b1e20;
