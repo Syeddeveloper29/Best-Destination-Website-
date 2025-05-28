@@ -349,8 +349,8 @@
     }
 }
 
-@media only screen and (max-width: 650px){
-    .text-buttons{
+@media only screen and (max-width: 650px) {
+    .text-buttons {
         padding: 2rem 1.3rem 0 1.3rem;
     }
 
@@ -362,8 +362,8 @@
         left: 5.2rem;
     }
 
-    .text-buttons input{
-        width:30rem;
+    .text-buttons input {
+        width: 30rem;
     }
 
     .text-buttons .first-box input {
@@ -405,7 +405,191 @@
     }
 }
 
+
+@media only screen and (max-width: 520px) {
+
+    .first-line {
+        font-size: 1.684rem;
+        padding: 0 0.6rem;
+    }
+
+    .second-line {
+        font-size: 1.684rem;
+        padding: 0 0.6rem;
+    }
+
+    .third-line {
+        font-size: 0.98rem;
+    }
+
+    .text-buttons .first-box input {
+        padding-left: 6rem;
+    }
+
+    .text-buttons input {
+        width: 27rem;
+    }
+
+    .text-buttons input::placeholder {
+        font-size: 0.9rem;
+    }
+
+    .text-buttons .btn {
+        width: 11rem;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .first-line {
+        font-size: 1.545rem;
+        padding: 0 0.5rem;
+    }
+
+    .second-line {
+        font-size: 1.545rem;
+        padding: 0 0.5rem;
+    }
+
+    .third-line {
+        font-size: 0.95rem;
+        padding: 1.4rem 1.5rem 0 1.5rem;
+    }
+
+    .text-buttons .first-box h3 {
+        font-size: 1rem;
+        bottom: 11.72rem;
+        left: 4rem;
+    }
+
+    .text-buttons .first-box input {
+        padding-left: 5rem;
+    }
+
+    .text-buttons input {
+        width: 24rem;
+    }
+
+    .text-buttons input::placeholder {
+        font-size: 0.85rem;
+    }
+
+    .text-buttons .first-box .icon {
+        bottom: 11.59rem;
+        right: 2rem;
+    }
+
+    .text-buttons i {
+        font-size: 1rem;
+    }
+
+    .text-buttons .second-box h3 {
+        font-size: 1rem;
+        bottom: 5.93rem;
+        left: 4.8rem;
+    }
+
+    .text-buttons .second-box input {
+        padding-left: 6.3rem;
+    }
+
+    .text-buttons .second-box .icon {
+        right: 2.05rem;
+    }
+
+    i.fa-magnifying-glass {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 429px) {
+    .first-line {
+        font-size: 1.52rem;
+    }
+
+    .second-line {
+        font-size: 1.52rem;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .first-line {
+        font-size: 1.45rem;
+    }
+
+    .second-line {
+        font-size: 1.45rem;
+    }
+
+    .third-line {
+        padding: 1.4rem 1rem 0 1rem;
+    }
+
+    .text-buttons .first-box h3 {
+        font-size: 0.95rem;
+        bottom: 11.72rem;
+        left: 4rem;
+    }
+
+    .text-buttons .second-box h3 {
+        font-size: 0.95rem;
+        bottom: 5.95rem;
+        left: 4.5rem;
+    }
+
+    .text-buttons input {
+        width: 22rem;
+    }
+
+    
+    .text-buttons input::placeholder {
+        font-size: 0.82rem;
+    }
+}
+
+@media only screen and (max-width: 407px) {
+    .first-line {
+        font-size: 1.399rem;
+    }
+
+    .second-line {
+        font-size: 1.399rem;
+    }
+
+    .text-buttons .btn {
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 322px) {
+    .first-line {
+        font-size: 1.2rem;
+    }
+
+    .second-line {
+        font-size: 1.2rem;
+    }
+
+    .third-line {
+        font-size: 0.81rem;
+    }
+
+    .text-buttons input {
+        width: 19rem;
+    }
+
+    .text-buttons button {
+        gap: 0.7rem;
+    }
+
+    .text-buttons .btn {
+        width: 9rem;
+        padding: 1.34rem 1rem;
+    }
+}
+
 /* Home end here */
+
 
 /* List item start here */
 @media only screen and (max-width: 1215px) {
@@ -1156,7 +1340,7 @@
 
     /* Home section starts here */
 
-    .first-line {
+    /* .first-line {
         letter-spacing: 0.15rem;
     }
 
@@ -1167,7 +1351,7 @@
     .third-line {
         font-size: 0.5rem;
         font-weight: 400;
-    }
+    } */
 
     /* Home section ends here */
 

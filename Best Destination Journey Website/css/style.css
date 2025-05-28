@@ -378,8 +378,8 @@ li a:hover {
     background-color: #ff545a;
     color: #FFF;
     cursor: pointer;
+    border: none;
     outline: none;
-    border: 0.1rem solid #c41013;
     z-index: 1;
     font-family: "Poppins", system-ui;
     font-weight: 400;
