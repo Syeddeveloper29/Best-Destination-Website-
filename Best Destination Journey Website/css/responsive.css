@@ -220,12 +220,13 @@
         flex-direction: column;
         gap: 1rem;
     }
-    
+
     .text-buttons input {
         width: 50rem;
     }
-    
+
     .text-buttons .first-box h3 {
+        bottom: 12.22rem;
         left: 7rem;
     }
 
@@ -233,25 +234,174 @@
         padding-left: 15rem;
         border-radius: 0.3rem;
     }
-    
+
     .text-buttons .second-box h3 {
-        top: 12.155rem;
+        bottom: 6.35rem;
         left: 7.7rem;
     }
-    
+
     .text-buttons .second-box input {
         padding-left: 15rem;
         border-radius: 0.3rem;
     }
-    
+
     .text-buttons .first-box .icon {
-        top: 10.3rem;
-        left: 48rem;
+        bottom: 12.3rem;
+        right: 4rem;
     }
-    
+
     .text-buttons .second-box .icon {
         bottom: 6.387rem;
         right: 3.8rem;
+    }
+
+    .text-buttons button {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 926px) {
+    .first-line {
+        font-size: 2.6rem;
+    }
+
+    .second-line {
+        font-size: 2.6rem;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .text-buttons input {
+        width: 37rem;
+    }
+
+    .text-buttons .first-box h3 {
+        bottom: 11.73rem;
+        left: 5.2rem;
+    }
+
+    .text-buttons .first-box input {
+        padding-left: 8rem;
+    }
+
+    .text-buttons .first-box .icon {
+        bottom: 11.6rem;
+        right: 3.1rem;
+    }
+
+    .text-buttons .second-box h3 {
+        bottom: 6rem;
+        left: 5.8rem;
+    }
+
+    .text-buttons .second-box input {
+        padding-left: 8rem;
+    }
+
+    .text-buttons .second-box .icon {
+        bottom: 5.9rem;
+        right: 3rem;
+    }
+
+    .text-buttons .btn {
+        padding: 1.34rem 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 827px) {
+    .first-line {
+        font-size: 2.4rem;
+        padding: 0 1.3rem;
+    }
+
+    .second-line {
+        font-size: 2.4rem;
+        padding: 0 1.4rem;
+    }
+
+    .third-line {
+        font-size: 1.08rem;
+    }
+}
+
+@media only screen and (max-width: 803px) {
+    .text-buttons {
+        padding: 2rem 1.6rem 0 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 756px) {
+    .first-line {
+        font-size: 2.2rem;
+        padding: 0 1rem;
+        letter-spacing: 0;
+    }
+
+    .second-line {
+        font-size: 2.2rem;
+        padding: 0 1rem;
+        letter-spacing: 0;
+    }
+
+    .third-line {
+        font-size: 1.05rem;
+        padding: 2rem 1.5rem 0 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .text-buttons{
+        padding: 2rem 1.3rem 0 1.3rem;
+    }
+
+    .text-buttons .first-box h3 {
+        left: 4.5rem;
+    }
+
+    .text-buttons .second-box h3 {
+        left: 5.2rem;
+    }
+
+    .text-buttons input{
+        width:30rem;
+    }
+
+    .text-buttons .first-box input {
+        padding-left: 7.3rem;
+    }
+
+    .text-buttons .second-box input {
+        padding-left: 7.3rem;
+    }
+}
+
+@media only screen and (max-width: 607px) {
+    .first-line {
+        font-size: 1.88rem;
+    }
+
+    .second-line {
+        font-size: 1.88rem;
+    }
+
+    .third-line {
+        font-size: 1rem;
+        padding: 2rem 1.5rem 0 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 539px) {
+    .first-line {
+        font-size: 1.85rem;
+    }
+
+    .second-line {
+        font-size: 1.85rem;
+    }
+
+    .third-line {
+        font-size: 1rem;
+        padding: 2rem 1.5rem 0 1.5rem;
     }
 }
 

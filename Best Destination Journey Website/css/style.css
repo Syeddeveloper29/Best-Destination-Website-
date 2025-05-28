@@ -290,7 +290,7 @@ li a:hover {
 
 .text-buttons .first-box h3 {
     position: absolute;
-    top: 6.34rem;
+    bottom: 0.8rem;
     left: 4.7rem;
     transform: translate(-50%, -50%);
     color: #343a3f;
@@ -302,7 +302,7 @@ li a:hover {
 
 .text-buttons .second-box h3 {
     position: absolute;
-    top: 6.34rem;
+    bottom: 0.8rem;
     left: 35.5rem;
     transform: translate(-50%, -50%);
     color: #343a3f;
@@ -345,14 +345,14 @@ li a:hover {
 .text-buttons .first-box .icon {
     position: absolute;
     bottom: 0.75rem;
-    left: 29rem;
+    right: 45.5rem;
     transform: translate(-50%, -50%);
 }
 
 .text-buttons .second-box .icon {
     position: absolute;
     bottom: 0.75rem;
-    right: 15rem;
+    right: 15.5rem;
     transform: translate(-50%, -50%);
 }
 
@@ -370,7 +370,7 @@ li a:hover {
     gap: 1.3rem;
 }
 
-.btn {
+.text-buttons .btn {
     padding: 1.6rem 1.1rem;
     font-size: 0.95rem;
     width: 11.5rem;
