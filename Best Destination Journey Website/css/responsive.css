@@ -510,6 +510,50 @@
     .second-line {
         font-size: 1.52rem;
     }
+
+    .text-buttons .first-box h3 {
+        font-size: 0.9rem;
+        bottom: 11rem;
+        left: 3.7rem;
+    }
+
+    .text-buttons .first-box .icon {
+        bottom: 10.77rem;
+        right: 2rem;
+    }
+
+    .text-buttons .second-box h3 {
+        font-size: 0.9rem;
+        bottom: 5.89rem;
+        left: 4.26rem;
+    }
+
+    .text-buttons .second-box input {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .text-buttons .second-box .icon {
+        bottom: 5.62rem;
+    }
+
+    .text-buttons input {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .text-buttons i {
+        font-size: 0.92rem;
+    }
+
+    .text-buttons button {
+        gap: 0.7rem;
+    }
+
+    .text-buttons .btn {
+        width: 9rem;
+        padding: 1.15rem 1rem;
+    }
 }
 
 @media only screen and (max-width: 411px) {
@@ -525,26 +569,31 @@
         padding: 1.4rem 1rem 0 1rem;
     }
 
-    .text-buttons .first-box h3 {
-        font-size: 0.95rem;
-        bottom: 11.72rem;
-        left: 4rem;
+
+
+    .text-buttons .first-box input {
+        padding-left: 4.4rem;
     }
 
     .text-buttons .second-box h3 {
-        font-size: 0.95rem;
-        bottom: 5.95rem;
-        left: 4.5rem;
+        font-size: 0.9rem;
+        /* bottom: 6.221rem; */
+        left: 4.26rem;
+    }
+
+    .text-buttons .second-box input {
+        padding-left: 6rem;
     }
 
     .text-buttons input {
         width: 22rem;
     }
 
-    
     .text-buttons input::placeholder {
         font-size: 0.82rem;
     }
+
+
 }
 
 @media only screen and (max-width: 407px) {
@@ -584,7 +633,7 @@
 
     .text-buttons .btn {
         width: 9rem;
-        padding: 1.34rem 1rem;
+        padding: 1.15rem 1rem;
     }
 }
 
@@ -628,227 +677,9 @@
 
 
 
+/* Footer section starts here */
 
-@media screen and (max-width:1205px) {
-
-    /* Navbar starts here */
-
-    /* .navbar {
-        flex-direction: column;
-        width: 100%;
-        height: 19rem;
-        transition: all 0.9s ease-out;
-        max-width: 100%;
-        z-index: 2;
-    }
-
-    .h-resp {
-        height: 4rem;
-    }
-
-    .left {
-        margin-bottom: 0.2rem;
-    }
-
-    .left .burger {
-        display: block;
-    }
-
-    .left h2 {
-        margin-top: 0.60rem;
-    }
-
-    h2 .logo {
-        margin-top: 0.6rem;
-    }
-
-    .right {
-        margin: auto;
-    }
-
-    .v-resp {
-        visibility: hidden;
-    }
-
-    .nav-list {
-        flex-direction: column;
-        margin: auto;
-        gap: 0.5rem;
-        margin-left: 6rem;
-        justify-content: center;
-        align-items: center;
-    } */
-
-    /* Navbar ends here */
-
-    /* Blogs section starts here */
-
-    #blog {
-        /* margin-top: 5rem; */
-    }
-
-    .main-blog-box {
-        /* display: flex; */
-        /* flex-direction: column; */
-    }
-
-    .first-blog-box {
-        /* margin-top: 1.4rem; */
-    }
-
-    /* Blogs section starts here */
-}
-
-@media screen and (max-width:1195px) {
-
-    /* Home section starts here */
-
-    .text-buttons {
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* gap: 1rem; */
-    }
-
-    .first-box input {
-        /* width: 29rem; */
-        /* border-radius: 0.25rem; */
-    }
-
-    .first-box i {
-        /* left: 26rem; */
-    }
-
-    .second-box input {
-        /* border-radius: 0.25rem; */
-    }
-
-    .second-box i {
-        /* right: 1.8rem; */
-    }
-
-    /* Home section ends here */
-
-    /* List item section starts here */
-
-    /* #list-item {
-        display: flex;
-        position: static;
-    }
-
-    .list-container {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-        margin-top: 5rem;
-    } */
-
-    /* List item section ends here */
-
-    /* How it works section starts here */
-
-    #how-it-works {
-        /* margin-top: 5rem; */
-    }
-
-    .main-heading {
-        /* margin-bottom: 3rem; */
-    }
-
-    .first-part {
-        /* margin-top: 1.4rem; */
-    }
-
-    /* How it works section ends here */
-
-    /* Explore section starts here */
-
-    #explore {
-        /* margin-top: 5rem; */
-    }
-
-    /* Explore section ends here */
-
-    /* Review section starts here */
-
-    #review {
-        /* margin-top: 5rem; */
-    }
-
-    /* Review section ends here */
-
-    /* Counter section starts here */
-
-    .counter-middle-part {
-        /* flex-direction: column;
-        margin-top: 2rem; */
-    }
-
-    #counter-heading-first {
-        /* display: flex;
-        flex-direction: row;
-        margin: auto;
-        align-items: center; */
-    }
-
-    #counter-heading-first h2 {
-        /* margin-right: 2rem; */
-    }
-
-    #counter-heading-first h3 {
-        /* margin-right: 6rem; */
-    }
-
-    #counter-heading-second {
-        /* display: flex;
-        flex-direction: row;
-        margin: auto;
-        align-items: center; */
-    }
-
-    #counter-heading-second h2 {
-        /* margin-right: 2rem; */
-    }
-
-    #counter-heading-second h3 {
-        /* margin-right: -1rem; */
-    }
-
-    #counter-heading-third {
-        /* display: flex;
-        flex-direction: row;
-        margin: auto;
-        align-items: center; */
-    }
-
-    #counter-heading-third h2 {
-        /* margin-right: 2rem; */
-    }
-
-    #counter-heading-third h3 {
-        /* margin-right: 6rem; */
-    }
-
-    #counter-heading-fourth {
-        /* display: flex;
-        flex-direction: row;
-        margin: auto;
-        align-items: center; */
-    }
-
-    #counter-heading-fourth h2 {
-        /* margin-right: 2rem; */
-    }
-
-    #counter-heading-fourth h3 {
-        /* margin-right: 1rem; */
-    }
-
-    /* Counter section ends here */
-
-    /* Footer section starts here */
-
-    /* #footer {
+/* #footer {
         flex-direction: column;
     }
 
@@ -874,8 +705,8 @@
         margin-left: -6rem;
     } */
 
-    /* Footer section ends here */
-}
+/* Footer section ends here */
+
 
 @media screen and (max-width:950px) {
 
