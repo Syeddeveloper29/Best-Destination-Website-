@@ -276,7 +276,7 @@
     }
 
     .text-buttons .first-box h3 {
-        bottom: 11.73rem;
+        bottom: 11.7rem;
         left: 5.2rem;
     }
 
@@ -285,12 +285,12 @@
     }
 
     .text-buttons .first-box .icon {
-        bottom: 11.6rem;
+        bottom: 11.54rem;
         right: 3.1rem;
     }
 
     .text-buttons .second-box h3 {
-        bottom: 6rem;
+        bottom: 5.9rem;
         left: 5.8rem;
     }
 
@@ -299,7 +299,7 @@
     }
 
     .text-buttons .second-box .icon {
-        bottom: 5.9rem;
+        bottom: 5.86rem;
         right: 3rem;
     }
 
@@ -441,6 +441,10 @@
 }
 
 @media only screen and (max-width: 450px) {
+    .first-section {
+        padding-top: 10rem;
+    }
+
     .first-line {
         font-size: 1.545rem;
         padding: 0 0.5rem;
@@ -513,18 +517,18 @@
 
     .text-buttons .first-box h3 {
         font-size: 0.9rem;
-        bottom: 11rem;
+        bottom: 10.6rem;
         left: 3.7rem;
     }
 
     .text-buttons .first-box .icon {
-        bottom: 10.77rem;
+        bottom: 10.39rem;
         right: 2rem;
     }
 
     .text-buttons .second-box h3 {
         font-size: 0.9rem;
-        bottom: 5.89rem;
+        bottom: 5.51rem;
         left: 4.26rem;
     }
 
@@ -534,7 +538,7 @@
     }
 
     .text-buttons .second-box .icon {
-        bottom: 5.62rem;
+        bottom: 5.26rem;
     }
 
     .text-buttons input {
@@ -569,16 +573,8 @@
         padding: 1.4rem 1rem 0 1rem;
     }
 
-
-
     .text-buttons .first-box input {
         padding-left: 4.4rem;
-    }
-
-    .text-buttons .second-box h3 {
-        font-size: 0.9rem;
-        /* bottom: 6.221rem; */
-        left: 4.26rem;
     }
 
     .text-buttons .second-box input {
@@ -592,8 +588,6 @@
     .text-buttons input::placeholder {
         font-size: 0.82rem;
     }
-
-
 }
 
 @media only screen and (max-width: 407px) {
@@ -604,9 +598,24 @@
     .second-line {
         font-size: 1.399rem;
     }
+}
 
-    .text-buttons .btn {
-        width: 10rem;
+@media only screen and (max-width: 370px) {
+    .first-line {
+        font-size: 1.269rem;
+    }
+
+    .second-line {
+        font-size: 1.269rem;
+    }
+
+    .third-line {
+        font-size: 0.9rem;
+        padding: 1.4rem 0.5rem 0 0.5rem;
+    }
+
+    .text-buttons input {
+        width: 20rem;
     }
 }
 
@@ -621,6 +630,14 @@
 
     .third-line {
         font-size: 0.81rem;
+    }
+
+    .text-buttons .first-box input {
+        padding-left: 4rem;
+    }
+
+    .text-buttons .second-box input {
+        padding-left: 5.5rem;
     }
 
     .text-buttons input {
@@ -651,515 +668,34 @@
 
 /* List item end here */
 
+/* How it works start here */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer section starts here */
-
-/* #footer {
-        flex-direction: column;
+@media only screen and (max-width: 1215px) {
+    #how-it-works {
+        padding-top: 8rem;
     }
-
-    #footer .left {
-        margin-left: 0;
-    }
-
-    #footer .right {
-        margin: 0rem;
-    }
-
-    .footer-lower-part {
-        flex-direction: column;
-    }
-
-    .footer-lower-left-part {
-        margin-right: 0rem;
-        margin-top: 3rem;
-        margin-left: -6rem;
-    }
-
-    .footer-lower-right-part {
-        margin-left: -6rem;
-    } */
-
-/* Footer section ends here */
-
-
-@media screen and (max-width:950px) {
-
-    /* Navbar starts here */
-
-    .nav-list {
-        /* margin-left: 4.5rem; */
-    }
-
-    /* Navbar ends here */
 }
 
-@media screen and (max-width:916px) {
-
-    /* Home section starts here */
-
-    /* .first-line {
-        font-size: 2rem;
+@media only screen and (max-width: 411px) {
+    .first-part p {
+        padding: 1.05rem 1rem 0 1rem;
     }
-
-    .second-line {
-        font-size: 2rem;
-    }
-
-    .third-line {
-        font-size: 0.9rem;
-    } */
-
-    /* Home section ends here */
 }
 
-@media screen and (max-width:800px) {
-
-    /* Contact section starts here */
-
-    /* #contact {
-        margin-top: 5rem;
+@media only screen and (max-width: 398px) {
+    .main-heading {
+        padding: 0 1rem;
     }
 
-    #main-heading h2 {
-        font-size: 1rem;
-        margin: 0 1rem 0 1rem;
-    }
-
-    #main-heading p {
-        font-size: 0.8rem;
-        margin: 0 1rem 0 1rem;
-    }
-
-    .contact-search-box input {
-        width: 25rem;
-    }
-
-    .contact-search-box input[placeholder] {
-        font-size: 0.83rem;
-    }
-
-    .contact-btn {
-        width: 8.2rem;
-        font-size: 0.8rem;
-    } */
-
-    /* Contact section ends here */
-}
-
-
-@media screen and (max-width: 698px) {
-
-    /* Navbar starts here */
-
-    /* .nav-list {
-        margin-left: 4rem;
-    } */
-
-    /* Navbar ends here */
-
-    /* Footer section starts here */
-
-    /* .footer-list {
-        flex-direction: column;
-        justify-content: center;
-        margin-right: -2rem;
-        text-align: center;
-        gap: 0rem;
-    }
-
-    .footer-lower-part {
-        border: none;
-    }
-
-    .footer-lower-left-part {
-        margin-top: 0rem;
-    }
-
-    .footer-lower-right-part {
-        margin-top: 1rem;
-
-    } */
-
-    /* Footer section ends here */
-}
-
-@media screen and (max-width: 650px) {
-
-    /* Home section starts here */
-
-    /* .first-line {
-        font-size: 1.5rem;
-    }
-
-    .second-line {
-        font-size: 1.5rem;
-    }
-
-    .third-line {
-        font-size: 0.75rem;
-    }
-
-    .first-box h3 {
+    .main-heading p {
         font-size: 0.95rem;
     }
-
-    .first-box input {
-        width: 26rem;
-    }
-
-    input[placeholder="Ex: palce, resturent, food, automobile"] {
-        font-size: 0.8rem;
-    }
-
-    .first-box i {
-        left: 23rem;
-    }
-
-    .second-box h3 {
-        font-size: 0.95rem;
-    }
-
-    .second-box input {
-        width: 26rem;
-    }
-
-    input[placeholder="Ex: london, newyork, rome"] {
-        font-size: 0.8rem;
-    }
-
-    .second-box i {
-        right: 1.8rem;
-    } */
-
-    /* Home section ends here */
 }
 
-@media screen and (max-width: 551px) {
+/* How it works end here */
 
-    /* Counter section starts here */
 
-    /* #counter-heading-first {
-        margin-left: -1rem;
-    }
-
-    #counter-heading-second {
-        margin-left: -1rem;
-    }
-
-    #counter-heading-third {
-        margin-left: -1rem;
-    }
-
-    #counter-heading-fourth {
-        margin-left: -1rem;
-    } */
-
-    /* Counter section ends here */
-
-    /* Contact section starts here */
-
-    /* .contact-search-box form {
-        flex-direction: column;
-    }
-
-    .contact-btn {
-        margin: auto;
-        margin-top: 1rem;
-    } */
-
-    /* Contact section ends here */
-}
-
-@media screen and (max-width: 509px) {
-
-    /* Navbar starts here */
-
-    /* .nav-list {
-        margin-left: 3.5rem;
-    } */
-
-    /* Navbar ends here */
-
-    /* Home section starts here */
-
-    /* .first-line {
-        font-size: 1.2rem;
-    }
-
-    .second-line {
-        font-size: 1.2rem;
-    }
-
-    .third-line {
-        font-size: 0.64rem;
-    }
-
-    .btn {
-        padding: 1rem 1.1rem;
-        font-size: 0.82rem;
-        height: 3.8rem;
-        width: 9.5rem;
-    }
-
-    .btn i {
-        font-size: 0.8rem;
-    } */
-
-    /* Home section ends here */
-}
-
-@media screen and (max-width: 455px) {
-
-    /* Header top starts here */
-
-    .top-left {
-        /* margin-left: 1%;
-        width: 45rem; */
-    }
-
-    .first-left {
-        /* font-size: 0.3rem; */
-    }
-
-    .second-left {
-        /* font-size: 0.3rem; */
-    }
-
-    .third-left i {
-        /* font-size: 0.7rem; */
-    }
-
-    .top-right {
-        /* margin-right: 1.2%; */
-    }
-
-    .first-right {
-        /* font-size: 0.75rem; */
-    }
-
-    .second-right {
-        /* font-size: 0.75rem; */
-    }
-
-    .third-right {
-        /* font-size: 0.75rem; */
-    }
-
-    /* Header top ends here */
-
-    /* Home section starts here */
-
-    /* .text {
-        margin-top: 2.5rem;
-    }
-
-    .first-line {
-        font-size: 1rem;
-        font-weight: bold;
-    }
-
-    .second-line {
-        font-size: 1rem;
-        font-weight: bold;
-    }
-
-    .third-line {
-        font-size: 0.6rem;
-    }
-
-    .first-box h3 {
-        font-size: 0.72rem;
-        top: 1.2rem;
-    }
-
-    .first-box input {
-        width: 21rem;
-        height: 3.3rem;
-    }
-
-    input[placeholder="Ex: palce, resturent, food, automobile"] {
-        font-size: 0.64rem;
-    }
-
-    .first-box i {
-        top: 1.3rem;
-        left: 18rem;
-        font-size: 0.87rem;
-    }
-
-    .second-box h3 {
-        font-size: 0.72rem;
-        top: 1.2rem;
-    }
-
-    .second-box input {
-        width: 21rem;
-        height: 3.3rem;
-    }
-
-    input[placeholder="Ex: london, newyork, rome"] {
-        font-size: 0.64rem;
-    }
-
-    .second-box i {
-        top: 1.3rem;
-        right: 2.1rem;
-        font-size: 0.87rem;
-    }
-
-    .btn {
-        padding: 1rem 1.1rem;
-        font-size: 0.7rem;
-        height: 2.8rem;
-        width: 8rem;
-    }
-
-    .btn i {
-        font-size: 0.72rem;
-    } */
-
-    /* Home section ends here */
-
-    /* Counter section starts here */
-
-    /* .counter-middle-part {
-        margin-top: 5.2rem;
-    }
-
-    #counter-heading-first {
-        margin-left: -2.5rem;
-    }
-
-    #counter-heading-first h2 {
-        font-size: 2.5rem;
-    }
-
-    #counter-heading-first h3 {
-        font-size: 1.2rem;
-    }
-
-    #counter-heading-second {
-        margin-left: -2.5rem;
-    }
-
-    #counter-heading-second h2 {
-        font-size: 2.5rem;
-    }
-
-    #counter-heading-second h3 {
-        font-size: 1.2rem;
-    }
-
-    #counter-heading-third {
-        margin-left: -2.5rem;
-    }
-
-    #counter-heading-third h2 {
-        font-size: 2.5rem;
-    }
-
-    #counter-heading-third h3 {
-        font-size: 1.2rem;
-    }
-
-    #counter-heading-fourth {
-        margin-left: -2.5rem;
-    }
-
-    #counter-heading-fourth h2 {
-        font-size: 2.5rem;
-    }
-
-    #counter-heading-fourth h3 {
-        font-size: 1.2rem;
-    } */
-
-    /* Counter section starts here */
-}
-
-@media screen and (max-width: 415px) {
-
-    /* Navbar starts here */
-
-    /* .nav-list {
-        margin-left: 3rem;
-    } */
-
-    /* Navbar ends here */
-
-    /* Contact section starts here */
-
-    /* .contact-search-box input {
-        width: 21rem;
-    }
-
-    .contact-search-box input[placeholder] {
-        font-size: 0.8rem;
-    }
-
-    .contact-btn {
-        width: 7rem;
-        font-size: 0.8rem;
-    } */
-
-    /* Contact section ends here */
-
-    /* Footer section starts here */
-
-    /* .footer-lower-left-part p {
-        font-size: 0.77rem;
-    }
-
-    .footer-para {
-        gap: 0.2rem;
-    }
-
-    .footer-para a i {
-        font-size: 0.67rem;
-    }
-
-    .footer-para p a {
-        font-size: 0.77rem;
-    }
-
-    .footer-icons {
-        width: 2rem;
-        height: 2rem;
-        margin-left: 1rem;
-    }
-
-    .footer-icons a i {
-        font-size: 0.77rem;
-    } */
-
-    /* Footer section ends here */
-}
+/* Explore box start here */
 
 @media only screen and (max-width: 405px) {
     .explore-para {
@@ -1167,95 +703,11 @@
     }
 }
 
-@media screen and (max-width: 400px) {
-
-    /* Home section starts here */
-
-    /* .first-line {
-        letter-spacing: 0.15rem;
+@media only screen and (max-width: 398px) {
+    .explore .main-heading p {
+        padding: 1.2rem 1rem 0 1rem;
     }
-
-    .second-line {
-        letter-spacing: 0.15rem;
-    }
-
-    .third-line {
-        font-size: 0.5rem;
-        font-weight: 400;
-    } */
-
-    /* Home section ends here */
-
-    /* How it works section starts here */
-
-    .main-heading p {
-        /* font-size: 0.9rem; */
-        /* margin: 0 1rem 0 1rem; */
-        text-transform: capitalize;
-    }
-
-    .first-part {
-        padding-top: 0rem;
-    }
-
-    /* How it works section ends here */
-
-
-    /* .first-blog-box {
-        width: 20rem;
-    }
-
-    .upper-blog-part img {
-        width: 20rem;
-        margin-left: 1.5rem;
-    }
-
-    .upper-blog-part img {
-        width: 20rem;
-        margin-left: 1.5rem;
-    }
-
-    .middle-blog-part {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
-
-    .middle-blog-part h2 a {
-        font-size: 1rem;
-    }
-
-    .second-last-blog-part {
-        margin-right: 1rem;
-        margin-left: 1.3rem;
-    }
-
-    .second-last-blog-part h4 {
-        font-size: 0.82rem;
-    }
-
-    .second-last-blog-part span a {
-        margin-right: 0.6rem;
-        font-size: 0.88rem;
-    }
-
-    .second-last-blog-part h4 {
-        font-size: 0.82rem;
-        margin-right: 0.7rem;
-    }
-    
-    .last-blog-part {
-        margin-right: 3rem;
-        margin-left: 2rem;
-    }
-
-    .last-blog-part p {
-        font-size: 0.85rem;
-    } */
-
-    /* Blog section ends here */
 }
-
-/* Explore box start here */
 
 @media only screen and (max-width: 388px) {
     .explore-rating {
@@ -1335,4 +787,328 @@
     }
 }
 
-/* Explore box ends here */
+/* Explore box end here */
+
+
+/* Counter start here */
+
+@media only screen and (max-width: 1088px){
+    .counter-middle-part {
+        gap: 6rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer section starts here */
+
+/* #footer {
+        flex-direction: column;
+    }
+
+    #footer .left {
+        margin-left: 0;
+    }
+
+    #footer .right {
+        margin: 0rem;
+    }
+
+    .footer-lower-part {
+        flex-direction: column;
+    }
+
+    .footer-lower-left-part {
+        margin-right: 0rem;
+        margin-top: 3rem;
+        margin-left: -6rem;
+    }
+
+    .footer-lower-right-part {
+        margin-left: -6rem;
+    } */
+
+/* Footer section ends here */
+
+
+@media screen and (max-width:800px) {
+
+    /* Contact section starts here */
+
+    /* #contact {
+        margin-top: 5rem;
+    }
+
+    #main-heading h2 {
+        font-size: 1rem;
+        margin: 0 1rem 0 1rem;
+    }
+
+    #main-heading p {
+        font-size: 0.8rem;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .contact-search-box input {
+        width: 25rem;
+    }
+
+    .contact-search-box input[placeholder] {
+        font-size: 0.83rem;
+    }
+
+    .contact-btn {
+        width: 8.2rem;
+        font-size: 0.8rem;
+    } */
+
+    /* Contact section ends here */
+}
+
+
+@media screen and (max-width: 698px) {
+    /* Footer section starts here */
+
+    /* .footer-list {
+        flex-direction: column;
+        justify-content: center;
+        margin-right: -2rem;
+        text-align: center;
+        gap: 0rem;
+    }
+
+    .footer-lower-part {
+        border: none;
+    }
+
+    .footer-lower-left-part {
+        margin-top: 0rem;
+    }
+
+    .footer-lower-right-part {
+        margin-top: 1rem;
+
+    } */
+
+    /* Footer section ends here */
+}
+
+@media screen and (max-width: 551px) {
+
+    /* Counter section starts here */
+
+    /* #counter-heading-first {
+        margin-left: -1rem;
+    }
+
+    #counter-heading-second {
+        margin-left: -1rem;
+    }
+
+    #counter-heading-third {
+        margin-left: -1rem;
+    }
+
+    #counter-heading-fourth {
+        margin-left: -1rem;
+    } */
+
+    /* Counter section ends here */
+
+    /* Contact section starts here */
+
+    /* .contact-search-box form {
+        flex-direction: column;
+    }
+
+    .contact-btn {
+        margin: auto;
+        margin-top: 1rem;
+    } */
+
+    /* Contact section ends here */
+}
+
+@media screen and (max-width: 455px) {
+
+    /* Counter section starts here */
+
+    /* .counter-middle-part {
+        margin-top: 5.2rem;
+    }
+
+    #counter-heading-first {
+        margin-left: -2.5rem;
+    }
+
+    #counter-heading-first h2 {
+        font-size: 2.5rem;
+    }
+
+    #counter-heading-first h3 {
+        font-size: 1.2rem;
+    }
+
+    #counter-heading-second {
+        margin-left: -2.5rem;
+    }
+
+    #counter-heading-second h2 {
+        font-size: 2.5rem;
+    }
+
+    #counter-heading-second h3 {
+        font-size: 1.2rem;
+    }
+
+    #counter-heading-third {
+        margin-left: -2.5rem;
+    }
+
+    #counter-heading-third h2 {
+        font-size: 2.5rem;
+    }
+
+    #counter-heading-third h3 {
+        font-size: 1.2rem;
+    }
+
+    #counter-heading-fourth {
+        margin-left: -2.5rem;
+    }
+
+    #counter-heading-fourth h2 {
+        font-size: 2.5rem;
+    }
+
+    #counter-heading-fourth h3 {
+        font-size: 1.2rem;
+    } */
+
+    /* Counter section starts here */
+}
+
+@media screen and (max-width: 415px) {
+
+    /* .contact-search-box input[placeholder] {
+        font-size: 0.8rem;
+    }
+
+    .contact-btn {
+        width: 7rem;
+        font-size: 0.8rem;
+    }  */
+
+    /* Contact section ends here */
+
+    /* Footer section starts here */
+
+    /* .footer-lower-left-part p {
+        font-size: 0.77rem;
+    }
+
+    .footer-para {
+        gap: 0.2rem;
+    }
+
+    .footer-para a i {
+        font-size: 0.67rem;
+    }
+
+    .footer-para p a {
+        font-size: 0.77rem;
+    }
+
+    .footer-icons {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 1rem;
+    }
+
+    .footer-icons a i {
+        font-size: 0.77rem;
+    } */
+
+    /* Footer section ends here */
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    /* How it works section starts here */
+
+    .main-heading p {
+        /* font-size: 0.9rem; */
+        /* margin: 0 1rem 0 1rem; */
+        text-transform: capitalize;
+    }
+
+    /* .first-part {
+        padding-top: 0rem;
+    } */
+
+    /* How it works section ends here */
+
+
+    /* .first-blog-box {
+        width: 20rem;
+    }
+
+    .upper-blog-part img {
+        width: 20rem;
+        margin-left: 1.5rem;
+    }
+
+    .upper-blog-part img {
+        width: 20rem;
+        margin-left: 1.5rem;
+    }
+
+    .middle-blog-part {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .middle-blog-part h2 a {
+        font-size: 1rem;
+    }
+
+    .second-last-blog-part {
+        margin-right: 1rem;
+        margin-left: 1.3rem;
+    }
+
+    .second-last-blog-part h4 {
+        font-size: 0.82rem;
+    }
+
+    .second-last-blog-part span a {
+        margin-right: 0.6rem;
+        font-size: 0.88rem;
+    }
+
+    .second-last-blog-part h4 {
+        font-size: 0.82rem;
+        margin-right: 0.7rem;
+    }
+    
+    .last-blog-part {
+        margin-right: 3rem;
+        margin-left: 2rem;
+    }
+
+    .last-blog-part p {
+        font-size: 0.85rem;
+    } */
+
+    /* Blog section ends here */
+}

@@ -1153,6 +1153,8 @@ li a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 2rem;
     gap: 8rem;
 }
 
@@ -1228,7 +1230,7 @@ li a:hover {
 }
 
 .upper-blog-part {
-    width: 23rem;
+    width: 100%;
 }
 
 .upper-blog-part img {
