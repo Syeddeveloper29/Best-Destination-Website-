@@ -14,3 +14,17 @@ burger.addEventListener('click', () => {
         }, 400);
     }
 });
+
+
+const input = document.getElementById('first-input');
+
+const handleHomeText = () => {
+    if(window.innerWidth <= 370){
+        input.placeholder = `Ex: place, resturent, automobile`;
+    }else{
+        input.placeholder = `Ex: place, resturent, food, automobile`;
+    }
+}
+
+window.addEventListener('load', handleHomeText);
+window.addEventListener('resize', handleHomeText);
