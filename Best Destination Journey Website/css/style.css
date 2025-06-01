@@ -1196,6 +1196,10 @@ li a:hover {
     width: 100%;
 }
 
+.explore-container .main-heading p {
+    padding: 1.2rem 2rem 0 2rem;
+}
+
 .main-blog-box {
     display: flex;
     flex-direction: row;
@@ -1203,7 +1207,7 @@ li a:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    padding-top: 3rem;
+    padding: 3rem 2rem 0 2rem;
 }
 
 .first-blog-box {
@@ -1263,7 +1267,7 @@ li a:hover {
 }
 
 .first-inner-blog-part {
-    padding-right: 0.6rem;
+    padding-right: 0.9rem;
 }
 
 .second-last-blog-part h4 {
@@ -1274,7 +1278,8 @@ li a:hover {
 }
 
 .second-last-blog-part .second-inner-blog-part {
-    padding-right: 4rem;
+    padding-right: 3rem;
+    padding-left: 0.7rem;
     border-left: 0.05rem solid #dde0e4;
 }
 
