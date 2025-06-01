@@ -886,6 +886,10 @@
 }
 
 @media only screen and (max-width: 400px) {
+    .explore-container .main-heading p {
+        padding: 1.2rem 1rem 0 1rem;
+    }
+
     .second-last-blog-part .second-inner-blog-part {
         padding-right: 1rem;
     }
@@ -927,16 +931,12 @@
 }
 
 @media only screen and (max-width: 344px) {
-    .first-inner-blog-part {
-        /* padding-right: 0.2rem; */
-    }
-
     .second-last-blog-part {
         padding: 1rem 1rem 0 1rem;
     }
 
     .second-last-blog-part span a {
-        margin-right: 0.4rem;
+        margin-right: 0.76rem;
     }
 
     .second-last-blog-part .second-inner-blog-part {
@@ -946,7 +946,87 @@
 
 }
 
+@media only screen and (max-width: 322px) {
+    .first-inner-blog-part {
+        padding-right: 0.5rem;
+    }
+
+    .second-last-blog-part span a {
+        margin-right: 0.7rem;
+    }
+}
+
 /* Blog end here */
+
+/* Contact start here */
+
+@media only screen and (max-width: 687px) {
+    .contact-search-box input {
+        max-width: 30rem;
+        min-width: 17rem;
+        width: 100%;
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+    }
+
+    .contact-btn {
+        border-top-left-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+        margin-left: 0;
+        padding: 1.13rem 0;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #main-heading h2 {
+        font-size: 1.35rem;
+    }
+
+    #main-heading p {
+        font-size: 0.96rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #main-heading h2 {
+        font-size: 1.25rem;
+    }
+
+    #main-heading p {
+        font-size: 0.93rem;
+    }
+
+    .contact-btn {
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #main-heading h2 {
+        font-size: 1.2rem;
+    }
+
+    #main-heading p {
+        font-size: 0.9rem;
+    }
+
+    .contact-btn {
+        width: 9rem;
+    }
+}
+
+/* Contact end here */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
