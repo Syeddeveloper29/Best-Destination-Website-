@@ -16,6 +16,7 @@ burger.addEventListener('click', () => {
 });
 
 
+
 const input = document.getElementById('first-input');
 
 const handleHomeText = () => {
@@ -25,6 +26,19 @@ const handleHomeText = () => {
         input.placeholder = `Ex: place, resturent, food, automobile`;
     }
 }
-
 window.addEventListener('load', handleHomeText);
 window.addEventListener('resize', handleHomeText);
+
+
+
+const listingHeading = document.getElementById('listing-second-heading');
+
+const changeListingHeading = () =>{
+    if(window.innerWidth <= 376){
+        listingHeading.textContent = `Categories`;
+    }else{
+        listingHeading.textContent = `Listing Categories`;
+    }
+}
+window.addEventListener('load', changeListingHeading);
+window.addEventListener('resize', changeListingHeading);
