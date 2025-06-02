@@ -974,7 +974,7 @@ li a:hover {
 /* Clients section starts here */
 
 #review {
-    padding-top: 8rem;
+    padding: 8rem 2rem 0 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -986,48 +986,45 @@ li a:hover {
     width: 100%;
 }
 
+.clients-container {
+    border: 0.1rem solid #000000;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .client-first-box {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
     margin-top: 2rem;
+    padding: 2rem 0;
+    border: 0.1rem solid #000000;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
 .client-main-box {
     position: relative;
     width: 24rem;
-    height: 18rem;
+    padding: 0.7rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 1rem;
     border-radius: 0.4rem;
     box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.35);
-    animation-name: client-box-animation;
-    animation-duration: 10s;
-    animation-timing-function: steps(5);
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
-    animation-fill-mode: forwards;
+    scroll-snap-align: start;
     cursor: pointer;
-    flex-wrap: wrap;
 }
 
 .client-main-box:hover {
     box-shadow: 0 0.6rem 0.5rem 0.35rem rgba(0, 0, 0, 0.3);
-}
-
-@keyframes client-box-animation {
-    0% {
-        transform: translateX(-110%);
-    }
-
-    100% {
-        transform: translateX(120%);
-    }
 }
 
 .client-first-part {
