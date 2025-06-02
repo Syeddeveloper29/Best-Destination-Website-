@@ -1451,6 +1451,8 @@ li a:hover {
     color: #7b8088;
     font-weight: 300;
     text-transform: capitalize;
+    text-align: center;
+    text-wrap: wrap;
 }
 
 .footer-lower-right-part {

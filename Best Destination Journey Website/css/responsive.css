@@ -1017,323 +1017,93 @@
 
 /* Contact end here */
 
+/* Footer start here */
 
+@media only screen and (max-width: 1280px) {
+    .footer-lower-part {
+        gap: 25.3rem;
+    }
 
+    .footer-lower-right-part {
+        gap: 1.53rem;
+    }
+}
 
+@media only screen and (max-width: 1100px) {
+    .footer-lower-part {
+        gap: 14.1rem;
+    }
+}
 
+@media only screen and (max-width: 1026px) {
+    .footer-lower-part {
+        gap: 8.34rem;
+    }
+}
 
+@media only screen and (max-width: 914px) {
+    .footer-lower-part {
+        gap: 2.39rem;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-/* Footer section starts here */
-
-/* #footer {
+@media only screen and (max-width: 855px) {
+    #footer {
         flex-direction: column;
+        padding: 8rem 1rem 1rem 1rem;
+        flex-wrap: nowrap;
     }
 
     #footer .left {
-        margin-left: 0;
+        padding-bottom: 3rem;
     }
 
     #footer .right {
-        margin: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .right .footer-list {
+        flex-direction: column;
+        gap: 1.4rem;
     }
 
     .footer-lower-part {
         flex-direction: column;
+        gap: 2rem;
     }
+}
 
-    .footer-lower-left-part {
-        margin-right: 0rem;
-        margin-top: 3rem;
-        margin-left: -6rem;
+@media only screen and (max-width: 394px) {
+    .footer-lower-part {
+        max-width: 30rem;
+        min-width: 17rem;
+        width: 100%;
     }
 
     .footer-lower-right-part {
-        margin-left: -6rem;
-    } */
-
-/* Footer section ends here */
-
-
-@media screen and (max-width:800px) {
-
-    /* Contact section starts here */
-
-    /* #contact {
-        margin-top: 5rem;
+        gap: 1rem;
     }
+}
 
-    #main-heading h2 {
-        font-size: 1rem;
-        margin: 0 1rem 0 1rem;
-    }
-
-    #main-heading p {
-        font-size: 0.8rem;
-        margin: 0 1rem 0 1rem;
-    }
-
-    .contact-search-box input {
-        width: 25rem;
-    }
-
-    .contact-search-box input[placeholder] {
+@media only screen and (max-width: 362px) {
+    .footer-lower-left-part p {
         font-size: 0.83rem;
     }
 
-    .contact-btn {
-        width: 8.2rem;
-        font-size: 0.8rem;
-    } */
-
-    /* Contact section ends here */
-}
-
-
-@media screen and (max-width: 698px) {
-    /* Footer section starts here */
-
-    /* .footer-list {
-        flex-direction: column;
-        justify-content: center;
-        margin-right: -2rem;
-        text-align: center;
-        gap: 0rem;
-    }
-
-    .footer-lower-part {
-        border: none;
-    }
-
-    .footer-lower-left-part {
-        margin-top: 0rem;
-    }
-
-    .footer-lower-right-part {
-        margin-top: 1rem;
-
-    } */
-
-    /* Footer section ends here */
-}
-
-@media screen and (max-width: 551px) {
-
-    /* Counter section starts here */
-
-    /* #counter-heading-first {
-        margin-left: -1rem;
-    }
-
-    #counter-heading-second {
-        margin-left: -1rem;
-    }
-
-    #counter-heading-third {
-        margin-left: -1rem;
-    }
-
-    #counter-heading-fourth {
-        margin-left: -1rem;
-    } */
-
-    /* Counter section ends here */
-
-    /* Contact section starts here */
-
-    /* .contact-search-box form {
-        flex-direction: column;
-    }
-
-    .contact-btn {
-        margin: auto;
-        margin-top: 1rem;
-    } */
-
-    /* Contact section ends here */
-}
-
-@media screen and (max-width: 455px) {
-
-    /* Counter section starts here */
-
-    /* .counter-middle-part {
-        margin-top: 5.2rem;
-    }
-
-    #counter-heading-first {
-        margin-left: -2.5rem;
-    }
-
-    #counter-heading-first h2 {
-        font-size: 2.5rem;
-    }
-
-    #counter-heading-first h3 {
-        font-size: 1.2rem;
-    }
-
-    #counter-heading-second {
-        margin-left: -2.5rem;
-    }
-
-    #counter-heading-second h2 {
-        font-size: 2.5rem;
-    }
-
-    #counter-heading-second h3 {
-        font-size: 1.2rem;
-    }
-
-    #counter-heading-third {
-        margin-left: -2.5rem;
-    }
-
-    #counter-heading-third h2 {
-        font-size: 2.5rem;
-    }
-
-    #counter-heading-third h3 {
-        font-size: 1.2rem;
-    }
-
-    #counter-heading-fourth {
-        margin-left: -2.5rem;
-    }
-
-    #counter-heading-fourth h2 {
-        font-size: 2.5rem;
-    }
-
-    #counter-heading-fourth h3 {
-        font-size: 1.2rem;
-    } */
-
-    /* Counter section starts here */
-}
-
-@media screen and (max-width: 415px) {
-
-    /* .contact-search-box input[placeholder] {
-        font-size: 0.8rem;
-    }
-
-    .contact-btn {
-        width: 7rem;
-        font-size: 0.8rem;
-    }  */
-
-    /* Contact section ends here */
-
-    /* Footer section starts here */
-
-    /* .footer-lower-left-part p {
-        font-size: 0.77rem;
-    }
-
-    .footer-para {
-        gap: 0.2rem;
-    }
-
-    .footer-para a i {
-        font-size: 0.67rem;
-    }
-
     .footer-para p a {
-        font-size: 0.77rem;
+        font-size: 0.83rem;
     }
 
     .footer-icons {
-        width: 2rem;
-        height: 2rem;
-        margin-left: 1rem;
+        width: 2.1rem;
+        height: 2.1rem;
     }
-
-    .footer-icons a i {
-        font-size: 0.77rem;
-    } */
-
-    /* Footer section ends here */
 }
 
-
-
-@media screen and (max-width: 400px) {
-
-    /* How it works section starts here */
-
-    .main-heading p {
-        /* font-size: 0.9rem; */
-        /* margin: 0 1rem 0 1rem; */
-        text-transform: capitalize;
+@media only screen and (max-width: 337px) {
+    .footer-lower-right-part {
+        gap: 0.6rem;
     }
-
-    /* .first-part {
-        padding-top: 0rem;
-    } */
-
-    /* How it works section ends here */
-
-
-    /* .first-blog-box {
-        width: 20rem;
-    }
-
-    .upper-blog-part img {
-        width: 20rem;
-        margin-left: 1.5rem;
-    }
-
-    .upper-blog-part img {
-        width: 20rem;
-        margin-left: 1.5rem;
-    }
-
-    .middle-blog-part {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
-
-    .middle-blog-part h2 a {
-        font-size: 1rem;
-    }
-
-    .second-last-blog-part {
-        margin-right: 1rem;
-        margin-left: 1.3rem;
-    }
-
-    .second-last-blog-part h4 {
-        font-size: 0.82rem;
-    }
-
-    .second-last-blog-part span a {
-        margin-right: 0.6rem;
-        font-size: 0.88rem;
-    }
-
-    .second-last-blog-part h4 {
-        font-size: 0.82rem;
-        margin-right: 0.7rem;
-    }
-    
-    .last-blog-part {
-        margin-right: 3rem;
-        margin-left: 2rem;
-    }
-
-    .last-blog-part p {
-        font-size: 0.85rem;
-    } */
-
-    /* Blog section ends here */
 }
+
+/* Footer end here */
