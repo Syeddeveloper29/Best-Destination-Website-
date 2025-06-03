@@ -974,53 +974,49 @@ li a:hover {
 /* Clients section starts here */
 
 #review {
-    padding: 8rem 2rem 0 2rem;
+    padding: 8rem 1rem 0 1rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #ffffffc4;
     width: 100%;
+    /* border: 0.1rem solid #000000; */
 }
 
-.review {
+#review .client-frame {
+    padding: 2rem 2rem;
+}
+
+.client-frame .client-container {
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 2.5rem;
     width: 100%;
-}
-
-.clients-container {
-    border: 0.1rem solid #000000;
-    padding-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.client-first-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem;
-    padding: 2rem 0;
-    border: 0.1rem solid #000000;
+    box-sizing: border-box;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    --webkit-overflow-scrolling: touch;
+    scroll-padding-left: 2rem;
+}
+
+.client-frame .client-container::-webkit-scrollbar {
+    display: none;
 }
 
 .client-main-box {
-    position: relative;
-    width: 24rem;
-    padding: 0.7rem 0;
+    width: calc((100% - 5rem) / 3);
+    flex: 0 0 auto;
+    padding: 0.7rem 1rem 0.5rem 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     border-radius: 0.4rem;
-    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.35);
     scroll-snap-align: start;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .client-main-box:hover {
@@ -1028,21 +1024,8 @@ li a:hover {
 }
 
 .client-first-part {
-    margin-top: 2rem;
-    margin-left: -2.1rem;
-    margin-bottom: 0.3rem;
-}
-
-#second-box {
-    margin-left: -1.2rem;
-}
-
-#third-box {
-    margin-left: 0.1rem;
-}
-
-#fourth-box {
-    margin-left: -1.7rem;
+    padding-top: 2rem;
+    padding-left: 5.4rem;
 }
 
 .client-first-part h2 {
@@ -1055,24 +1038,18 @@ li a:hover {
 
 .client-middle-part {
     display: flex;
-    flex-direction: row;
+    padding: 0.3rem 1rem 0 1rem;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
 }
 
 .client-person-img {
-    margin-left: -8.6rem;
+    width: 3.5rem;
 }
 
 .client-person-img img {
-    width: 3.5rem;
-    margin-left: 1rem;
-}
-
-.sub-heading {
-    margin-left: 0.5rem;
-}
-
-#fourth-sub-heading {
-    margin-left: 1.22rem;
+    width: 100%;
 }
 
 .sub-heading h4 {
@@ -1083,18 +1060,6 @@ li a:hover {
     letter-spacing: 0.02rem;
 }
 
-.stars {
-    margin-left: 1.3rem;
-}
-
-#third-star {
-    margin-left: 0.8rem;
-}
-
-#fourth-star {
-    margin-left: -0.8rem;
-}
-
 .stars i {
     font-size: 0.8rem;
     color: #ffda2b;
@@ -1102,20 +1067,21 @@ li a:hover {
 }
 
 .client-last-part {
-    margin: 1.5rem 2rem;
+    padding: 1.5rem 1rem;
+    text-wrap: wrap;
+
 }
 
 .client-last-part p {
-    text-align: justify;
+    text-align: left;
     font-size: 0.87rem;
     font-weight: 300;
     color: #8d939e;
 }
 
-/* Client section ends here */
+/* Clients section ends here */
 
 /* Counter section starts here */
-
 #counter {
     margin-top: 8rem;
     background: url(/assests/images/counter/counter-banner.png) no-repeat center center/cover;
