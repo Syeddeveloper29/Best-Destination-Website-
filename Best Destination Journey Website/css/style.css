@@ -985,7 +985,8 @@ li a:hover {
 }
 
 #review .client-frame {
-    padding: 2rem 2rem;
+    padding: 2rem 0rem;
+    max-width: 75rem;
 }
 
 .client-frame .client-container {
@@ -1006,6 +1007,10 @@ li a:hover {
     display: none;
 }
 
+.client-container.no-smooth {
+    scroll-behavior: auto !important;
+}
+
 .client-main-box {
     width: calc((100% - 5rem) / 3);
     flex: 0 0 auto;
@@ -1017,10 +1022,16 @@ li a:hover {
     scroll-snap-align: start;
     cursor: pointer;
     box-sizing: border-box;
+    opacity: 0.4;
+    transition: opacity 0.3 ease;
 }
 
 .client-main-box:hover {
     box-shadow: 0 0.6rem 0.5rem 0.35rem rgba(0, 0, 0, 0.3);
+}
+
+.client-main-box.active {
+    opacity: 1;
 }
 
 .client-first-part {
