@@ -1,11 +1,11 @@
 @media screen and (max-width:1450px) {
 
-    html,
-    body {
-        width: 100%;
-        max-width: 100%;
-        height: 100%;
+    html, body {
+        position: relative;
         overflow-x: hidden;
+        width: 100%;
+        min-width: 100%;
+        box-sizing: border-box;
     }
 }
 
@@ -178,9 +178,8 @@
     .navbar {
         flex-direction: column;
         max-height: 5.4rem;
-        height: 100%;
         gap: 1.5rem;
-        overflow: hidden;
+        overflow-y: hidden;
         transition: max-height 0.4s linear;
     }
 
@@ -436,7 +435,7 @@
 
 @media only screen and (max-width: 450px) {
     .first-section {
-        padding-top: 10rem;
+        padding-top: 9rem;
     }
 
     .first-line {
@@ -690,6 +689,27 @@
 
 
 /* Explore box start here */
+@media only screen and (max-width: 428px){
+    .inner-part .inner-part-icon {
+        left: 247%;
+    }
+}
+
+@media only screen and (max-width: 416px) {
+    .inner-part {
+        left: 5.5%;
+    }
+
+    .inner-part .inner-part-icon {
+        left: 235%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .inner-part .inner-part-icon {
+        left: 215%;
+    }
+}
 
 @media only screen and (max-width: 405px) {
     .explore-para {
@@ -737,6 +757,12 @@
     }
 }
 
+@media only screen and (max-width: 380px) {
+    .inner-part .inner-part-icon {
+        left: 202%;
+    }
+}
+
 @media only screen and (max-width: 372px) {
     .explore-para {
         padding: 1.5rem 1.2rem 1.8rem 1.2rem;
@@ -749,6 +775,10 @@
 }
 
 @media only screen and (max-width: 362px) {
+    .inner-part .inner-part-icon {
+        left: 189%;
+    }
+
     .rating a {
         padding-right: 0.3rem;
     }
@@ -778,6 +808,18 @@
 
     .explore-para {
         padding: 1.5rem 0.8rem 1.8rem 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    .inner-part .inner-part-icon {
+        left: 175%;
+    }
+}
+
+@media only screen and (max-width: 324px) {
+    .inner-part .inner-part-icon {
+        left: 168%;
     }
 }
 
