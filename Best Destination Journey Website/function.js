@@ -165,16 +165,16 @@ window.addEventListener('resize', opacityInLowerDevice);
 // for scroll to top
 const scrollToTopButton = document.querySelector('.scroll-to-top');
 
-scrollToTopButton.addEventListener('click', () => {
-    scrollTo({ top: 0, behavior: 'smooth' });
-});
-
 window.addEventListener('scroll', () => {
     if (window.scrollY >= 400) {
         scrollToTopButton.style.display = `block`;
     } else {
         scrollToTopButton.style.display = `none`;
     }
+
+    scrollToTopButton.addEventListener('click', () => {
+        scrollTo({ top: 0, behavior: 'smooth' });
+    });
 });
 
 // for scroll to top
