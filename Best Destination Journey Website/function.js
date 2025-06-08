@@ -1,6 +1,6 @@
 // for navbar
-const navbar = document.querySelector('#navbar')
-const burger = document.querySelector('.burger')
+const navbar = document.querySelector('#navbar');
+const burger = document.querySelector('.burger');
 const icon = document.querySelector('.fa-bars');
 
 burger.addEventListener('click', () => {
@@ -19,7 +19,7 @@ burger.addEventListener('click', () => {
 
 
 
-// For home text
+// for home text
 const input = document.getElementById('first-input');
 
 const handleHomeText = () => {
@@ -31,7 +31,7 @@ const handleHomeText = () => {
 }
 window.addEventListener('load', handleHomeText);
 window.addEventListener('resize', handleHomeText);
-// For home text
+// for home text
 
 
 
@@ -68,7 +68,7 @@ const clientSlidesClone = () => {
     clientSlider.insertBefore(lastClone, clientSlides[0]);
 }
 
-// Calculate scroll amount based on card width + gap
+// calculate scroll amount based on card width + gap
 const setClientScrollAmountByCardWidth = () => {
     const clientContainer = document.querySelector('.client-container');
     const clientCard = document.querySelector('.client-main-box');
@@ -107,14 +107,14 @@ const highlightCenterSlide = () => {
     }
 };
 
-// Auto sliding logic
+// auto sliding logic
 let clientSlideShow;
 
 const startClientSlideShow = () => {
     clientSlideShow = setInterval(() => {
         if (clientSlider.scrollLeft >= clientSlider.scrollWidth - clientSlider.clientWidth) {
             clientSlider.classList.add('no-smooth');
-            clientSlider.scrollLeft = clientScrollAmount / 2
+            clientSlider.scrollLeft = clientScrollAmount / 2;
             clientSlider.classList.remove('no-smooth');
         } else {
             clientSlider.scrollBy({ left: clientScrollAmount, behavior: 'smooth' });
@@ -127,25 +127,54 @@ const stopClientSlideShow = () => {
     clearInterval(clientSlideShow);
 }
 
-// Add Event Listeners
-// Recalculate scroll amount on resize
+// add event listeners
+// recalculate scroll amount on resize
 window.addEventListener('resize', setClientScrollAmountByCardWidth);
 
-// On page load
+// on page load
 window.addEventListener('load', () => {
     clientSlidesClone();
     setClientScrollAmountByCardWidth();
-    // Scroll to actual first item (after the last clone)
+    // scroll to actual first item (after the last clone)
     clientSlider.scrollLeft = clientSlider.children[1].offsetLeft;
     highlightCenterSlide();
     startClientSlideShow();
 });
 
-// Pause auto scroll on hover
+// pause auto scroll on hover
 clientSlider.addEventListener('mouseenter', stopClientSlideShow);
 clientSlider.addEventListener('mouseleave', startClientSlideShow);
 clientSlider.addEventListener('scroll', () => {
     requestAnimationFrame(highlightCenterSlide);
 });
+
+
+const opacityInLowerDevice = () => {
+    const cardBoxes = document.querySelectorAll('.client-main-box');
+    if (window.innerWidth <= 322) {
+        cardBoxes.forEach(cardBox => cardBox.style.opacity = `1`);
+    }
+}
+
+window.addEventListener('load', opacityInLowerDevice);
+window.addEventListener('resize', opacityInLowerDevice);
 // for client section
 
+
+
+// for scroll to top
+const scrollToTopButton = document.querySelector('.scroll-to-top');
+
+scrollToTopButton.addEventListener('click', () => {
+    scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY >= 400) {
+        scrollToTopButton.style.display = `block`;
+    } else {
+        scrollToTopButton.style.display = `none`;
+    }
+});
+
+// for scroll to top
