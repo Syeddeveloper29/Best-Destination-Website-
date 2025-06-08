@@ -1,5 +1,7 @@
 🌍 Travel Website
 
+View the live website here: [https://best-destination.netlify.app/](https://best-destination.netlify.app/)
+
 A responsive travel website with modern design and smooth interactivity. Built with HTML, CSS, and JavaScript, this project showcases features like dynamic carousels, responsive navigation, and smooth scrolling.
 
 🚀 Features
