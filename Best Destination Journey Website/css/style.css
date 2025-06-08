@@ -106,17 +106,19 @@ i.fa-magnifying-glass {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 5rem 0 5rem;
+    padding: 2rem 5rem 1.5rem 5rem;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 2;
     background-color: #FFF;
     width: 100%;
+    max-width: 100%;
     max-height: 5.4rem;
     height: 100%;
     box-shadow: 0 0.4rem 0.4rem #0000002f;
     border-bottom: 0.062rem solid #fff;
+
 }
 
 .left {
@@ -178,6 +180,11 @@ li a {
 
 li a:hover {
     color: #ff545a;
+}
+
+li a.active {
+    color: #ff545a;
+    font-weight: 600;
 }
 
 /* Nav bar ends here */
@@ -981,7 +988,6 @@ li a:hover {
     justify-content: center;
     background-color: #ffffffc4;
     width: 100%;
-    /* border: 0.1rem solid #000000; */
 }
 
 #review .client-frame {
@@ -1023,7 +1029,6 @@ li a:hover {
     cursor: pointer;
     box-sizing: border-box;
     opacity: 0.4;
-    transition: opacity 0.3 ease;
 }
 
 .client-main-box:hover {
@@ -1100,6 +1105,7 @@ li a:hover {
     height: 25rem;
     width: 100%;
     background-attachment: fixed;
+    position: relative;
 }
 
 #counter::before {
@@ -1112,6 +1118,7 @@ li a:hover {
     height: 100%;
     width: 100%;
     overflow-y: hidden;
+    z-index: 0;
 }
 
 .counter-container {
@@ -1120,6 +1127,8 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+    position: relative;
 }
 
 .counter-middle-part {
@@ -1138,6 +1147,7 @@ li a:hover {
     align-items: center;
     flex-direction: column;
     z-index: 1;
+    position: relative;
 }
 
 .counter-heading h2 {
@@ -1372,6 +1382,38 @@ li a:hover {
 }
 
 /* Contact section ends here */
+
+/* Scroll to top section starts here */
+#scroll-to-top{
+    position: fixed;
+    bottom: 5rem;
+    right: 4rem;
+    z-index: 10;
+}
+
+#scroll-to-top .scroll-to-top{
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #ff545a;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    transition: background 0.4s ease;
+}
+
+#scroll-to-top .scroll-to-top:hover{
+    background-color: #ff0000b0;
+}
+
+.scroll-to-top i{
+    color: #fff;
+    text-align: center;
+    font-size: 0.85rem;
+}
+/* Scroll to top section ends here */
 
 /* Footer section starts here */
 
